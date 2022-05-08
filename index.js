@@ -22,7 +22,8 @@ app.post("/api/v1/quiz", function(req,res){
   }
 });
 
+const PORT = process.env.PORT || 3000;
 
-app.listen(3000,function(){
+app.listen(PORT,function(){
   console.log('im ranning!');
 });
